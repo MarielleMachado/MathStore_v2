@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; // Ajusta la altura de la columna al 100% del viewport
+}
+
+.main-header {
+    background-color: #003973;
+    padding: 0 20px; // Añade espacio alrededor del contenido del encabezado
+}
+
+.logo {
+    margin-left: 20px; // Espacio entre el borde izquierdo y el texto del logo
+}
+
+.logo-text {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none; // Elimina el subrayado del enlace
+}
+
+.mobile-sidenav {
+    background-color: #001529; // Color de fondo del menú lateral
+}
+
+.nav-links {
+    padding-top: 20px; // Espacio adicional arriba de los enlaces de navegación
+}
+
+.nav-link {
+    color: white;
+    font-weight: bold;
+    text-decoration: none; // Elimina el subrayado del enlace
+
+    &:hover {
+        color: #1890ff; // Cambia el color del enlace al pasar el ratón por encima
+    }
+}
