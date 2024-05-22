@@ -1,5 +1,6 @@
 package com.BackEnd.MathStoreOnline2.configuration;
 
+import com.BackEnd.MathStoreOnline2.filters.JwtRequestFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -20,7 +21,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 @EnableMethodSecurity
 public class WebSecurityConfiguration {
     @Autowired
-        private JwRequestFilter authFilter;
+        private JwtRequestFilter authFilter;
 
         @Bean
         public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception{
