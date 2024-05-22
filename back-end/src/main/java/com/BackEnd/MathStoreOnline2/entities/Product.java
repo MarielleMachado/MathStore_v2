@@ -7,16 +7,15 @@ import lombok.Data;
 
 @Entity
 @Data
-@Table(name="users")
-public class User {
+@Table(name="products")
+public class Product {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
-    private String email;
-    private String password;
-    private UserRole userRole;
+    private String category;
+    private String price;
     private byte[] img;
 
 
