@@ -1,5 +1,6 @@
 package com.BackEnd.MathStoreOnline2.entities;
 
+import com.BackEnd.MathStoreOnline2.dto.UserDTO;
 import com.BackEnd.MathStoreOnline2.enums.UserRole;
 import jakarta.persistence.*;
 import lombok.Data;
@@ -16,7 +17,7 @@ public class User {
     private String email;
     private String password;
     private UserRole userRole;
-    private  byte[] img;
+    private byte[] img;
 
 
 }
