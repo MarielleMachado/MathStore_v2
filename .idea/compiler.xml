@@ -10,14 +10,10 @@
         <module name="MathStore-Online2" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="math-store-online-2-application" target="17" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="MathStore-Online2" options="-parameters" />
-      <module name="math-store-online-2-application" options="-parameters" />
     </option>
   </component>
 </project>
